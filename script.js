@@ -109,3 +109,6 @@ function clearForm() {
   output.innerText = "";
   output.classList.add("hide");
 }
+
+addEntryButton.addEventListener("click", addEntry);
+calorieCounter.addEventListener("submit", calculatedCalories);
